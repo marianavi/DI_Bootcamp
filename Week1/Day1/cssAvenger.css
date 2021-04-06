@@ -1,23 +1,28 @@
+body {
+  display: block;
+}
 nav {
   background-color: rgb(0, 2, 1);
-  padding: 0px;
 }
+
 ul {
   list-style-type: none;
   text-align: right;
+  margin: 0;
 }
 
 li {
   color: white;
   font-size: 20px;
   font-family: sans-serif;
-  display: inline;
+  display: inline-block;
   text-decoration: none;
 }
 
 img {
-  display: inline;
-  width: 70px;
+  float: left;
+  width: 60px;
+  padding-left: 10px;
 }
 h1 {
   color: rgb(93, 31, 29);
@@ -38,6 +43,12 @@ h3 {
 p {
   font-family: sans-serif;
 }
+
+footer {
+  padding-top: 300px;
+  text-align: center;
+}
+
 .character {
   padding: 50px;
 }
@@ -48,6 +59,47 @@ p {
   padding: 50px;
 }
 .ironman {
-  display: inline;
-  width: 50px;
+  float: right;
+  width: 300px;
+  position: scroll;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  h1 {
+    color: rgb(20, 14, 99);
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: left;
+    margin: 0px;
+  }
+
+  .ironman {
+    float: left;
+    width: 300px;
+    position: scroll;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 680px) {
+  h1 {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: left;
+    margin: 0px;
+  }
+
+  p {
+    color: rgb(93, 31, 29);
+    font-family: sans-serif;
+  }
+
+  .ironman {
+    float: initial;
+    align-self: center;
+    width: 150px;
+    position: scroll;
+  }
 }
