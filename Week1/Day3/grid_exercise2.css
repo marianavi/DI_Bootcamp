@@ -1,0 +1,70 @@
+.maingrid {
+  border: 1px solid white;
+  background-color: white;
+  display: grid;
+  grid-gap: 10px 50px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+
+  grid-template-areas:
+    "header header header header"
+    "hero hero maincon maincon"
+    "hero hero maincon maincon"
+    "slide slide maincon maincon"
+    "slide slide extra extra"
+    "slide slide extra extra"
+    "relimg relimg relimg relpost"
+    "footer footer footer footer";
+
+  /*  *You cannot use the same line twice/
+  /* The names must be always aligned in the same columns */
+  /* the number of columns or rows must be the same number as written at grid-template tag  */
+}
+
+.header {
+  grid-area: header;
+  background-color: rgb(12, 193, 199);
+  color: white;
+}
+
+.hero {
+  grid-area: hero;
+  background-color: gray;
+  color: white;
+}
+
+.maincon {
+  grid-area: maincon;
+  background-color: rgb(231, 211, 25);
+  color: white;
+}
+
+.slidebar {
+  grid-area: slide;
+  background-color: rgb(103, 160, 17);
+  color: white;
+}
+
+.extracon {
+  grid-area: extra;
+  background-color: rgb(71, 65, 65);
+  color: white;
+}
+
+.relimg {
+  grid-area: relimg;
+  background-color: rgb(7, 82, 47);
+  color: white;
+}
+
+.relpost {
+  grid-area: relpost;
+  background-color: rgb(236, 65, 179);
+  color: white;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: rgb(82, 7, 57);
+  color: white;
+}
