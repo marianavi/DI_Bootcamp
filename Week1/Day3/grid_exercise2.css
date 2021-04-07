@@ -2,24 +2,24 @@
   border: 1px solid white;
   background-color: white;
   display: grid;
-  grid-gap: 10px 50px;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: repeat(4, 1fr);
-
+  grid-gap: 5px 5px;
+  grid-template-rows: 2fr 4fr 4fr 3fr 3fr 3fr 3fr 2fr;
+  grid-template-columns: repeat(3, 2fr);
   grid-template-areas:
-    "header header header header"
-    "hero hero maincon maincon"
-    "hero hero maincon maincon"
-    "slide slide maincon maincon"
-    "slide slide extra extra"
-    "slide slide extra extra"
-    "relimg relimg relimg relpost"
-    "footer footer footer footer";
-
-  /*  *You cannot use the same line twice/
-  /* The names must be always aligned in the same columns */
-  /* the number of columns or rows must be the same number as written at grid-template tag  */
+    "header header header"
+    "hero maincon maincon"
+    "hero maincon maincon"
+    "slide maincon maincon"
+    "slide extra extra"
+    "slide extra extra"
+    "relimg relimg relpost"
+    "footer footer footer";
 }
+
+/*  *You cannot use the same line twice/
+  /* The names must be always aligned in the same columns */
+/* the number of columns or rows must be the same number as written at grid-template tag  */
+/* } */
 
 .header {
   grid-area: header;
