@@ -15,4 +15,18 @@ h1 {
   font-size: 20px;
 }
 
-.section;
+.section {
+  background-color: lavender;
+}
+
+.contact {
+  background-color: lemonchiffon;
+}
+
+.education {
+  background-color: lemonchiffon;
+}
+
+.languages {
+  background-color: lemonchiffon;
+}
