@@ -1,8 +1,37 @@
+body {
+  margin: auto 0;
+  background-color: rgb(238, 237, 237);
+}
 h1 {
+  padding: 10px;
+  color: rgb(116, 16, 57);
   font-family: sans-serif;
   font-weight: 100;
 }
+
+section {
+  animation-duration: 2s;
+  animation-name: bounceIn;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .sec {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
   text-align: center;
   font-family: sans-serif;
   border: 1px solid rgb(255, 255, 255);
@@ -36,7 +65,8 @@ h1 {
 }
 
 .grow {
-  background: lightgray;
+  background: rgb(68, 64, 64);
+  color: lightgray;
 }
 
 .grow:hover {
@@ -48,11 +78,40 @@ h1 {
 }
 
 .shrink {
-  background: lightpink;
+  background: rgb(105, 202, 13);
 }
 
 .shrink:hover {
   -webkit-transform: scale(0.8);
   -ms-transform: scale(0.3);
   transform: scale(0.5);
+}
+
+.rotate {
+  background: rgb(238, 216, 15);
+}
+
+.rotate:hover {
+  -webkit-transform: rotateZ(-10deg);
+  -ms-transform: rotateZ(-10deg);
+  transform: rotateZ(2deg);
+}
+
+.circle {
+  background-color: rgb(144, 238, 230);
+}
+
+.circle:hover {
+  justify-self: center;
+  border-radius: 50%;
+  background-color: rgb(33, 190, 230);
+}
+
+.border {
+  grid-column: 1/-1;
+  background-color: rgb(245, 186, 210);
+}
+
+.border:hover {
+  box-shadow: inset 0 0 0 3px rgb(131, 7, 58);
 }
