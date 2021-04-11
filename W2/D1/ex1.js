@@ -20,7 +20,7 @@ let addressStreet = "Ben Yehuda"
 // console.log(addressStreet);
 let country = "Israel"
 // console.log(country);
-let global_address = "i live in $(addressStreet) $(addressNumber) in $(country)"
+let global_address = `i live in ${addressStreet} ${addressNumber} in ${country}`
 console.log(global_address);
 
 
