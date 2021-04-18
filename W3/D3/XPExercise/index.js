@@ -141,3 +141,5 @@ let l5 = nameString.substring(25,26)
 let l6 = nameString.substring(33,34)
 console.log (`${l1}${l2}${l3}${l4}${l5}${l6}`)
 
+//let txt = "Jack"
+//console.log = txt[0] //IT WILL CONSOLE J
