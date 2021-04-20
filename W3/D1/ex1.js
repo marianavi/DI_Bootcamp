@@ -2,11 +2,10 @@
 // Create a stuctured html file linked to a JS file
         
 //1. Create these variables and give them values:
-        
 //         addressNumber
 //         addressStreet
 //         country
-//         2. Write a variable named global_address, and concatenate inside, the variables:
+// 2. Write a variable named global_address, and concatenate inside, the variables:
         
 //         addressNumber
 //         addressStreet
@@ -14,9 +13,9 @@
 //         In order to to create a sentence
 //         3. Display global_address Example: global_address should display « I live in BenYehuda 5, in Israel »
 
-let addressNumber = "5"
+let addressNumber = 32
 // console.log(addressNumber);
-let addressStreet = "Ben Yehuda"
+let addressStreet = "Masarik"
 // console.log(addressStreet);
 let country = "Israel"
 // console.log(country);
@@ -32,8 +31,8 @@ console.log(global_address);
 
 let birthYear = 1989
 let nextYear = 2022
-let possibleAges = nextYear-birthYear
-console.log(possibleAges);
+let nextYearAge = nextYear-birthYear
+console.log(`I will be ${nextYearAge} 😢`);
 
 
 // EXERCISE #3
@@ -46,4 +45,4 @@ let pets= ['cat','dog','fish','rabbit','cow']
 console.log(pets[1]);
 pets.splice(3, 1, 'horse')
 console.log(pets);
-console.log(pets.length);
+console.log(pets.length)
