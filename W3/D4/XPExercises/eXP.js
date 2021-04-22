@@ -1,3 +1,4 @@
+
 // Exercise 1: Simple If/Else Statement
 // Instructions
 // Create 2 variables, x and y. Each of them should have a different numeric value.
@@ -68,28 +69,28 @@
 // Instructions
 // Using this function, answer the questions below:
 
-let whatHappens;
-let direction;
+// let whatHappens;
+// let direction;
 
-switch (direction) {
-    case "forward":
-        break;
-        whatHappens = "you encounter a monster";
-    case "back":
-        whatHappens = "you arrived home";
-        break;
-        break;
-    case "right":
-        whatHappens = "you found a river";
-        break;
-    case "left":
-        break;
-        whatHappens = "you run into a troll";
-        break;
-    default:
-        whatHappens = "please enter a valid direction";
-}
-console.log(whatHappens);
+// switch (direction) {
+//     case "forward":
+//         break;
+//         whatHappens = "you encounter a monster";
+//     case "back":
+//         whatHappens = "you arrived home";
+//         break;
+//         break;
+//     case "right":
+//         whatHappens = "you found a river";
+//         break;
+//     case "left":
+//         break;
+//         whatHappens = "you run into a troll";
+//         break;
+//     default:
+//         whatHappens = "please enter a valid direction";
+// }
+// console.log(whatHappens);
 
 
         // What is the value of the whatHappens variable, when the value of the direction variable is “forward”
