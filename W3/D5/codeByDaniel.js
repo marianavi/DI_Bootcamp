@@ -8,9 +8,9 @@
 
 // iterator ++ ====> iterator + 1 = iterator
 
-for (let iterator = 0; iterator <= 100; iterator+=5) {
-    console.log("the current number is " + iterator);
-}
+// for (let iterator = 0; iterator <= 100; iterator+=5) {
+//     console.log("the current number is " + iterator);
+//}
 
 // let peoples_name = ['Ben', 'Tali', 'Dasha', 'Dan'];
 // console.log(peoples_name.length);
@@ -133,7 +133,7 @@ for (let iterator = 0; iterator <= 100; iterator+=5) {
 //     console.log("The number is " + i); // 0 1 2 4 5 6 7 8 9
 //   }
 
-let names = ["john", "sarah", 23, "Rudolf", 34];
+// let names = ["john", "sarah", 23, "Rudolf", 34];
 
 // From Dan_emmanuel
 // const capitalized = str.charAt(0).toUpperCase() + str.slice(1);

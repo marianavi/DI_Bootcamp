@@ -4,14 +4,14 @@
 // Sample Output: //"0 is even" //"1 is odd" //"2 is even"
 
 //SOLUTION #1
-for (let i =0; i <=30; i++) {
-    if (i % 2 == 0){
-    console.log(`${i} is an even number`);
-    }else{
-    console.log(`${i} is an odd number`);
-}
-}
-console.log ("---------")
+// for (let i =0; i <=30; i++) {
+//     if (i % 2 == 0){
+//     console.log(`${i} is an even number`);
+//     }else{
+//     console.log(`${i} is an odd number`);
+// }
+// }
+// console.log ("---------")
 // Exercise 2
 
 // 2. Write a JavaScript for loop that will go through the variable names
