@@ -88,19 +88,7 @@ function checkStudent (studentObject) {
 };
 checkStudent({name:"David", age:30, level:"beginner"});
 checkStudent({name:"Lea", age:19, level:"advanced"});
-// EXERCISE
-//function and a conditionals
-// function isenoughMoney - 
-// receives 3 parameters : bankAmount, product, costProduct
-// condition
-	// if I have enough money, I buy the thing that I want ( I update the amount of money left in the account)
-	// sentence : "I'm happy, I bought a <x>"
-	// if not,
-	//sentence : "I'm sad"
-// call the function 3 times
-// money 10000, thing: computer, cost: 200
-// money 10000, thing: kitchen, cost: 30000
-// money 1000, thing: camera, cost: 800
+
 // ----------
 //GLOBAL AND LOCAL SCOPE
 // ---------------
@@ -171,12 +159,12 @@ alert(`You have $${moneyLeft} left in the account`)
 //  ------------------
 // SAME EXAMPLE WITHOUT COMMENTS
 //  ------------------
-function checkBankAmount (product, costProduct) {
+function checkBankAmount (item, costProduct) {
 	let bankAmount = 10000;
 	bankAmount = bankAmount - costProduct;
 	return bankAmount; 
 }
-let moneyLeft = checkBankAmount("computer", 3000);
+let moneyLeft = checkBankAmount("bike", 3000);
 alert(`You have $${moneyLeft} left in the account`);
 //  ------------------
 // EXAMPLE WITH CONDITIONALS
