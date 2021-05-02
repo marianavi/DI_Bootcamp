@@ -18,12 +18,13 @@ for(let i=1; i <= userArray.length - 1; i++){
         longestWord = userArray[i].length - 1;
     }
 }
-let stars = ""
-for(let i = 0; i < longestWord * 2 - 1; i++){
+let stars = "" //THIS IS ONLY THE COUNTER OF THE HORIZON STARS (*********)
+for(let i = 0; i < longestWord +4; i++){
     stars += '*';
 }
 console.log(stars);
+
 for(let i = 0; i < userArray.length; i++){
-    console.log('*  ' + userArray[i] + '  *')
+    console.log('* ' + userArray[i] + ' *')
 }
 console.log(stars);
